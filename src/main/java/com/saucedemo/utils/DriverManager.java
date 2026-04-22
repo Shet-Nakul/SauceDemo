@@ -75,6 +75,7 @@ public class DriverManager {
                 chromeOptions.addArguments("--window-size=1920,1080");
                 chromeOptions.addArguments("--disable-extensions");
                 chromeOptions.addArguments("--disable-notifications");
+                chromeOptions.addArguments("--headless=new");   // ← add this
 
                 // 🔥 Disable password manager & breach popup
                 chromeOptions.addArguments("--disable-save-password-bubble");
