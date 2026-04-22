@@ -23,60 +23,42 @@ public class InventoryPage {
     // ──────────────────────────────────────────────
     //  Locators
     // ──────────────────────────────────────────────
-    private static final By PAGE_TITLE =
-            By.xpath("//span[@class='title']");
+    private static final By PAGE_TITLE =By.xpath("//span[@class='title']");
 
-    private static final By INVENTORY_LIST =
-            By.xpath("//div[@class='inventory_list']");
+    private static final By INVENTORY_LIST =By.xpath("//div[@class='inventory_list']");
 
-    private static final By ALL_PRODUCT_NAMES =
-            By.xpath("//div[@class='inventory_item_name']");
+    private static final By ALL_PRODUCT_NAMES =By.xpath("//div[@class='inventory_item_name']");
 
-    private static final By ALL_PRODUCT_PRICES =
-            By.xpath("//div[@class='inventory_item_price']");
+    private static final By ALL_PRODUCT_PRICES =By.xpath("//div[@class='inventory_item_price']");
 
-    private static final By ALL_ADD_TO_CART_BUTTONS =
-            By.xpath("//button[contains(@data-test,'add-to-cart')]");
+    private static final By ALL_ADD_TO_CART_BUTTONS =By.xpath("//button[contains(@data-test,'add-to-cart')]");
 
-    private static final By ALL_REMOVE_BUTTONS =
-            By.xpath("//button[contains(@data-test,'remove')]");
+    private static final By ALL_REMOVE_BUTTONS =By.xpath("//button[contains(@data-test,'remove')]");
 
-    private static final By SORT_DROPDOWN =
-            By.xpath("//select[@data-test='product-sort-container']");
+    private static final By SORT_DROPDOWN =By.xpath("//select[@data-test='product-sort-container']");
 
-    private static final By CART_ICON =
-            By.xpath("//a[@class='shopping_cart_link']");
+    private static final By CART_ICON =By.xpath("//a[@class='shopping_cart_link']");
 
-    private static final By CART_BADGE =
-            By.xpath("//span[@class='shopping_cart_badge']");
+    private static final By CART_BADGE =By.xpath("//span[@class='shopping_cart_badge']");
 
-    private static final By BURGER_MENU_BUTTON =
-            By.xpath("//button[@id='react-burger-menu-btn']");
+    private static final By BURGER_MENU_BUTTON =By.xpath("//button[@id='react-burger-menu-btn']");
 
-    private static final By MENU_LOGOUT_LINK =
-            By.xpath("//a[@id='logout_sidebar_link']");
+    private static final By MENU_LOGOUT_LINK =By.xpath("//a[@id='logout_sidebar_link']");
 
-    private static final By MENU_ALL_ITEMS_LINK =
-            By.xpath("//a[@id='inventory_sidebar_link']");
+    private static final By MENU_ALL_ITEMS_LINK =By.xpath("//a[@id='inventory_sidebar_link']");
 
-    private static final By MENU_ABOUT_LINK =
-            By.xpath("//a[@id='about_sidebar_link']");
+    private static final By MENU_ABOUT_LINK =By.xpath("//a[@id='about_sidebar_link']");
 
-    private static final By MENU_RESET_LINK =
-            By.xpath("//a[@id='reset_sidebar_link']");
+    private static final By MENU_RESET_LINK =By.xpath("//a[@id='reset_sidebar_link']");
 
-    private static final By MENU_CLOSE_BUTTON =
-            By.xpath("//button[@id='react-burger-cross-btn']");
+    private static final By MENU_CLOSE_BUTTON =By.xpath("//button[@id='react-burger-cross-btn']");
 
     // Dynamic locators (use String.format before passing to By.xpath)
-    private static final String ADD_TO_CART_BY_NAME_TEMPLATE =
-            "//div[text()='%s']/ancestor::div[@class='inventory_item']//button[contains(@data-test,'add-to-cart')]";
+    private static final String ADD_TO_CART_BY_NAME_TEMPLATE ="//div[text()='%s']/ancestor::div[@class='inventory_item']//button[contains(@data-test,'add-to-cart')]";
 
-    private static final String REMOVE_BY_NAME_TEMPLATE =
-            "//div[text()='%s']/ancestor::div[@class='inventory_item']//button[contains(@data-test,'remove')]";
+    private static final String REMOVE_BY_NAME_TEMPLATE ="//div[text()='%s']/ancestor::div[@class='inventory_item']//button[contains(@data-test,'remove')]";
 
-    private static final String PRODUCT_LINK_BY_NAME_TEMPLATE =
-            "//div[@class='inventory_item_name' and text()='%s']";
+    private static final String PRODUCT_LINK_BY_NAME_TEMPLATE ="//div[@class='inventory_item_name' and text()='%s']";
 
     // ──────────────────────────────────────────────
     //  Constructor

@@ -19,29 +19,21 @@ public class LoginPage {
     // ──────────────────────────────────────────────
     //  Locators
     // ──────────────────────────────────────────────
-    private static final By USERNAME_INPUT =
-            By.xpath("//input[@data-test='username']");
+    private static final By USERNAME_INPUT =By.xpath("//input[@data-test='username']");
 
-    private static final By PASSWORD_INPUT =
-            By.xpath("//input[@data-test='password']");
+    private static final By PASSWORD_INPUT =By.xpath("//input[@data-test='password']");
 
-    private static final By LOGIN_BUTTON =
-            By.xpath("//input[@data-test='login-button']");
+    private static final By LOGIN_BUTTON =By.xpath("//input[@data-test='login-button']");
 
-    private static final By ERROR_MESSAGE =
-            By.xpath("//h3[@data-test='error']");
+    private static final By ERROR_MESSAGE =By.xpath("//h3[@data-test='error']");
 
-    private static final By ERROR_CLOSE_BUTTON =
-            By.xpath("//button[@class='error-button']");
+    private static final By ERROR_CLOSE_BUTTON =By.xpath("//button[@class='error-button']");
 
-    private static final By LOGIN_LOGO =
-            By.xpath("//div[@class='login_logo']");
+    private static final By LOGIN_LOGO =By.xpath("//div[@class='login_logo']");
 
-    private static final By LOGIN_CREDENTIALS_BOX =
-            By.xpath("//div[@class='login_credentials_wrap-inner']");
+    private static final By LOGIN_CREDENTIALS_BOX =By.xpath("//div[@class='login_credentials_wrap-inner']");
 
-    private static final By ACCEPTED_USERNAMES_HEADER =
-            By.xpath("//div[@class='login_credentials']/h4");
+    private static final By ACCEPTED_USERNAMES_HEADER =By.xpath("//div[@class='login_credentials']/h4");
 
     // ──────────────────────────────────────────────
     //  Constructor

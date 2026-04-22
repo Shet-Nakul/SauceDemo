@@ -21,26 +21,19 @@ public class CartPage {
     // ──────────────────────────────────────────────
     //  Locators
     // ──────────────────────────────────────────────
-    private static final By PAGE_TITLE =
-            By.xpath("//span[@class='title']");
+    private static final By PAGE_TITLE =By.xpath("//span[@class='title']");
 
-    private static final By CART_ITEMS =
-            By.xpath("//div[@class='cart_item']");
+    private static final By CART_ITEMS =By.xpath("//div[@class='cart_item']");
 
-    private static final By CART_ITEM_NAMES =
-            By.xpath("//div[@class='inventory_item_name']");
+    private static final By CART_ITEM_NAMES =By.xpath("//div[@class='inventory_item_name']");
 
-    private static final By CART_ITEM_PRICES =
-            By.xpath("//div[@class='inventory_item_price']");
+    private static final By CART_ITEM_PRICES =By.xpath("//div[@class='inventory_item_price']");
 
-    private static final By CART_ITEM_QUANTITIES =
-            By.xpath("//div[@class='cart_quantity']");
+    private static final By CART_ITEM_QUANTITIES =By.xpath("//div[@class='cart_quantity']");
 
-    private static final By CONTINUE_SHOPPING_BUTTON =
-            By.xpath("//button[@data-test='continue-shopping']");
+    private static final By CONTINUE_SHOPPING_BUTTON =By.xpath("//button[@data-test='continue-shopping']");
 
-    private static final By CHECKOUT_BUTTON =
-            By.xpath("//button[@data-test='checkout']");
+    private static final By CHECKOUT_BUTTON =By.xpath("//button[@data-test='checkout']");
 
     // Dynamic remove-by-name template
     private static final String REMOVE_ITEM_BY_NAME_TEMPLATE =

@@ -23,65 +23,47 @@ public class CheckoutPage {
     // ──────────────────────────────────────────────
     //  Locators – Step 1 (Info form)
     // ──────────────────────────────────────────────
-    private static final By PAGE_TITLE =
-            By.xpath("//span[@class='title']");
+    private static final By PAGE_TITLE =By.xpath("//span[@class='title']");
 
-    private static final By FIRST_NAME_INPUT =
-            By.xpath("//input[@data-test='firstName']");
+    private static final By FIRST_NAME_INPUT =By.xpath("//input[@data-test='firstName']");
 
-    private static final By LAST_NAME_INPUT =
-            By.xpath("//input[@data-test='lastName']");
+    private static final By LAST_NAME_INPUT =By.xpath("//input[@data-test='lastName']");
 
-    private static final By POSTAL_CODE_INPUT =
-            By.xpath("//input[@data-test='postalCode']");
+    private static final By POSTAL_CODE_INPUT =By.xpath("//input[@data-test='postalCode']");
 
-    private static final By CONTINUE_BUTTON =
-            By.xpath("//input[@data-test='continue']");
+    private static final By CONTINUE_BUTTON =By.xpath("//input[@data-test='continue']");
 
-    private static final By CANCEL_BUTTON =
-            By.xpath("//button[@data-test='cancel']");
+    private static final By CANCEL_BUTTON =By.xpath("//button[@data-test='cancel']");
 
-    private static final By ERROR_MESSAGE =
-            By.xpath("//h3[@data-test='error']");
+    private static final By ERROR_MESSAGE =By.xpath("//h3[@data-test='error']");
 
     // ──────────────────────────────────────────────
     //  Locators – Step 2 (Overview)
     // ──────────────────────────────────────────────
-    private static final By OVERVIEW_ITEM_NAMES =
-            By.xpath("//div[@class='inventory_item_name']");
+    private static final By OVERVIEW_ITEM_NAMES =By.xpath("//div[@class='inventory_item_name']");
 
-    private static final By OVERVIEW_ITEM_PRICES =
-            By.xpath("//div[@class='inventory_item_price']");
+    private static final By OVERVIEW_ITEM_PRICES =By.xpath("//div[@class='inventory_item_price']");
 
-    private static final By ITEM_TOTAL_LABEL =
-            By.xpath("//div[@class='summary_subtotal_label']");
+    private static final By ITEM_TOTAL_LABEL =By.xpath("//div[@class='summary_subtotal_label']");
 
-    private static final By TAX_LABEL =
-            By.xpath("//div[@class='summary_tax_label']");
+    private static final By TAX_LABEL =By.xpath("//div[@class='summary_tax_label']");
 
-    private static final By TOTAL_LABEL =
-            By.xpath("//div[@class='summary_total_label']");
+    private static final By TOTAL_LABEL =By.xpath("//div[@class='summary_total_label']");
 
-    private static final By FINISH_BUTTON =
-            By.xpath("//button[@data-test='finish']");
+    private static final By FINISH_BUTTON =By.xpath("//button[@data-test='finish']");
 
-    private static final By OVERVIEW_CANCEL_BUTTON =
-            By.xpath("//button[@data-test='cancel']");
+    private static final By OVERVIEW_CANCEL_BUTTON =By.xpath("//button[@data-test='cancel']");
 
     // ──────────────────────────────────────────────
     //  Locators – Complete page
     // ──────────────────────────────────────────────
-    private static final By COMPLETE_HEADER =
-            By.xpath("//h2[@class='complete-header']");
+    private static final By COMPLETE_HEADER =By.xpath("//h2[@class='complete-header']");
 
-    private static final By COMPLETE_TEXT =
-            By.xpath("//div[@class='complete-text']");
+    private static final By COMPLETE_TEXT =By.xpath("//div[@class='complete-text']");
 
-    private static final By BACK_HOME_BUTTON =
-            By.xpath("//button[@data-test='back-to-products']");
+    private static final By BACK_HOME_BUTTON =By.xpath("//button[@data-test='back-to-products']");
 
-    private static final By PONY_EXPRESS_IMAGE =
-            By.xpath("//img[@class='pony_express']");
+    private static final By PONY_EXPRESS_IMAGE =By.xpath("//img[@class='pony_express']");
 
     // ──────────────────────────────────────────────
     //  Constructor

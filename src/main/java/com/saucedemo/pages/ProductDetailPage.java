@@ -19,32 +19,23 @@ public class ProductDetailPage {
     // ──────────────────────────────────────────────
     //  Locators
     // ──────────────────────────────────────────────
-    private static final By PRODUCT_NAME =
-            By.xpath("//div[@class='inventory_details_name large_size']");
+    private static final By PRODUCT_NAME =By.xpath("//div[@class='inventory_details_name large_size']");
 
-    private static final By PRODUCT_DESCRIPTION =
-            By.xpath("//div[@class='inventory_details_desc large_size']");
+    private static final By PRODUCT_DESCRIPTION =By.xpath("//div[@class='inventory_details_desc large_size']");
 
-    private static final By PRODUCT_PRICE =
-            By.xpath("//div[@class='inventory_details_price']");
+    private static final By PRODUCT_PRICE =By.xpath("//div[@class='inventory_details_price']");
 
-    private static final By PRODUCT_IMAGE =
-            By.xpath("//img[@class='inventory_details_img']");
+    private static final By PRODUCT_IMAGE =By.xpath("//img[@class='inventory_details_img']");
 
-    private static final By ADD_TO_CART_BUTTON =
-            By.xpath("//button[contains(@data-test,'add-to-cart')]");
+    private static final By ADD_TO_CART_BUTTON =By.xpath("//button[contains(@data-test,'add-to-cart')]");
 
-    private static final By REMOVE_FROM_CART_BUTTON =
-            By.xpath("//button[contains(@data-test,'remove')]");
+    private static final By REMOVE_FROM_CART_BUTTON =By.xpath("//button[contains(@data-test,'remove')]");
 
-    private static final By BACK_TO_PRODUCTS_BUTTON =
-            By.xpath("//button[@data-test='back-to-products']");
+    private static final By BACK_TO_PRODUCTS_BUTTON =By.xpath("//button[@data-test='back-to-products']");
 
-    private static final By CART_ICON =
-            By.xpath("//a[@class='shopping_cart_link']");
+    private static final By CART_ICON =By.xpath("//a[@class='shopping_cart_link']");
 
-    private static final By CART_BADGE =
-            By.xpath("//span[@class='shopping_cart_badge']");
+    private static final By CART_BADGE =By.xpath("//span[@class='shopping_cart_badge']");
 
     // ──────────────────────────────────────────────
     //  Constructor
