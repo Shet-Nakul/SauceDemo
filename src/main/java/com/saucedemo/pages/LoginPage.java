@@ -19,9 +19,9 @@ public class LoginPage {
     // ──────────────────────────────────────────────
     //  Locators
     // ──────────────────────────────────────────────
-    private static final By USERNAME_INPUT =By.xpath("//input[@data-test='username']");
+    private static final By USERNAME_INPUT =By.xpath("//input[@data-test='user']");
 
-    private static final By PASSWORD_INPUT =By.xpath("//input[@data-test='password']");
+    private static final By PASSWORD_INPUT =By.xpath("//input[@data-test='pass']");
 
     private static final By LOGIN_BUTTON =By.xpath("//input[@data-test='login-button']");
 
