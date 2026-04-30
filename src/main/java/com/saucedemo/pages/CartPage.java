@@ -60,6 +60,7 @@ public class CartPage {
 
     @Step("Click 'Continue Shopping'")
     public InventoryPage clickContinueShopping() {
+        waitUtils.waitForVisibility(CONTINUE_SHOPPING_BUTTON);
         elementUtils.click(CONTINUE_SHOPPING_BUTTON);
         return new InventoryPage(driver);
     }
