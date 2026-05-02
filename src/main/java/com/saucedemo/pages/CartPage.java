@@ -21,13 +21,13 @@ public class CartPage {
     // ──────────────────────────────────────────────
     //  Locators
     // ──────────────────────────────────────────────
-    private static final By PAGE_TITLE =By.xpath("//span[@class='title']");
+    private static final By PAGE_TITLE =By.xpath("//span[@class='ti']");
 
     private static final By CART_ITEMS =By.xpath("//div[@class='cart_item']");
 
     private static final By CART_ITEM_NAMES =By.xpath("//div[@class='inventory_item_name']");
 
-    private static final By CART_ITEM_PRICES =By.xpath("//div[@class='inventory_item_price']");
+    private static final By CART_ITEM_PRICES =By.xpath("//div[@class='inventory_item']");
 
     private static final By CART_ITEM_QUANTITIES =By.xpath("//div[@class='cart_quantity']");
 
@@ -74,7 +74,6 @@ public class CartPage {
     @Step("Remove item '{itemName}' from cart")
     public CartPage removeItemByName(String itemName) {
         By locator = By.xpath(String.format(REMOVE_ITEM_BY_NAME_TEMPLATE, itemName));
-        elementUtils.click(locator);
         return this;
     }
 
